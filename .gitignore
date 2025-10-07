@@ -40,3 +40,25 @@ status
 stop
 success
 *.
+
+
+# Ignore all generated C code
+build/
+
+# But keep the build directory structure
+!build/.gitkeep
+
+# Ignore any temporary files
+*.tmp
+*.bak
+*~
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore any executables
+*.exe
+*.out
+SimpleThermalMVP
+SolarPanel
+OxygenGenerator
